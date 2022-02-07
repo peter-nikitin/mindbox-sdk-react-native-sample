@@ -90,6 +90,11 @@ const App = () => {
     Clipboard.setString(deviceUUID);
     console.log(deviceUUID);
   };
+
+  // Handling of push click for navigation
+  MindboxSdk.onPushClickReceived((pushClickRecievedData: string) => {
+    console.log(pushClickRecievedData);
+  });
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
