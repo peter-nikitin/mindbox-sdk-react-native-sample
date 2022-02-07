@@ -8,7 +8,7 @@
  * @format
  */
 
-import React from 'react';
+import MindboxSdk from 'mindbox-sdk';
 import {
   SafeAreaView,
   ScrollView,
@@ -61,6 +61,30 @@ const App = () => {
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
+
+  const appInitializationCallback = useCallback(async () => {
+    try {
+      await MindboxSdk.initialize({
+        domain: 'api.mindbox.ru',
+        endpointId:
+          Platform.OS === 'ios'
+            ? 'mpush-test-ios-sandbox-docs'
+            : 'mpush-test-android-sandbox-docs',
+        subscribeCustomerIfCreated: true,
+        shouldCreateCustomer: true,
+        previousInstallId: '',
+        previousUuid: '',
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
+
+  MindboxSdk.getDeviceUUID(device => setDeviceUUID(device));
+
+  useEffect(() => {
+    appInitializationCallback();
+  }, [appInitializationCallback]);
 
   return (
     <SafeAreaView style={backgroundStyle}>
