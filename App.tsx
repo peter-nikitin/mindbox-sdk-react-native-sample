@@ -9,7 +9,11 @@
  */
 
 import MindboxSdk from 'mindbox-sdk';
+import React, {useCallback, useEffect, useState} from 'react';
 import {
+  Button,
+  Clipboard,
+  Platform,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -19,13 +23,7 @@ import {
   View,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 const Section: React.FC<{
   title: string;
@@ -62,6 +60,8 @@ const App = () => {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
+  const [deviceUUID, setDeviceUUID] = useState('');
+
   const appInitializationCallback = useCallback(async () => {
     try {
       await MindboxSdk.initialize({
@@ -86,31 +86,30 @@ const App = () => {
     appInitializationCallback();
   }, [appInitializationCallback]);
 
+  const copyToClipboard = () => {
+    Clipboard.setString(deviceUUID);
+    console.log(deviceUUID);
+  };
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
-        <Header />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
+          <Section title=" Your Mindbox DeviceUUID">
+            <Text style={styles.highlight}>{deviceUUID}</Text>
+
+            <Button
+              onPress={copyToClipboard}
+              title="Copy"
+              color="#841584"
+              accessibilityLabel="Copy Mindbox DeviceUUID"
+            />
           </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
         </View>
       </ScrollView>
     </SafeAreaView>
