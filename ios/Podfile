@@ -3,6 +3,10 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '11.0'
 
+def mindbox_notifications
+  pod 'MindboxNotifications'
+end
+
 target 'testMbSdk' do
   config = use_native_modules!
 
@@ -12,6 +16,9 @@ target 'testMbSdk' do
     :hermes_enabled => false
   )
 
+  pod 'Mindbox'
+
+  
   target 'testMbSdkTests' do
     inherit! :complete
     # Pods for testing
