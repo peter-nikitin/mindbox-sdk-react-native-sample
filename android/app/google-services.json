@@ -1,0 +1,334 @@
+{
+  "project_info": {
+    "project_number": "855309246205",
+    "project_id": "mindbox-test-app",
+    "storage_bucket": "mindbox-test-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855309246205:android:a722edd94e185d976d6894",
+        "android_client_info": {
+          "package_name": "com.example.huaweifirebasesample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJuFWO5hzwGLed4xlJDPAtJw4AowUt9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "855309246205-0otbledhtsfggmo7gech4pf3advn4is1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cloud.mindbox.pushok.flutter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855309246205:android:24a84d5f6cbf5dad6d6894",
+        "android_client_info": {
+          "package_name": "com.example.mindbox_sample_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJuFWO5hzwGLed4xlJDPAtJw4AowUt9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "855309246205-0otbledhtsfggmo7gech4pf3advn4is1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cloud.mindbox.pushok.flutter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855309246205:android:e766fe175b619fd46d6894",
+        "android_client_info": {
+          "package_name": "com.example.mindboxsampleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJuFWO5hzwGLed4xlJDPAtJw4AowUt9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "855309246205-0otbledhtsfggmo7gech4pf3advn4is1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cloud.mindbox.pushok.flutter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855309246205:android:ae0137305b8b8d016d6894",
+        "android_client_info": {
+          "package_name": "com.example.mindboxsdk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJuFWO5hzwGLed4xlJDPAtJw4AowUt9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "855309246205-0otbledhtsfggmo7gech4pf3advn4is1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cloud.mindbox.pushok.flutter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855309246205:android:86d6c6bdcd2a4cc46d6894",
+        "android_client_info": {
+          "package_name": "com.mindbox.androidappmindbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJuFWO5hzwGLed4xlJDPAtJw4AowUt9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "855309246205-0otbledhtsfggmo7gech4pf3advn4is1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cloud.mindbox.pushok.flutter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855309246205:android:6096f8bf4bb994dc6d6894",
+        "android_client_info": {
+          "package_name": "com.mindbox.pushok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJuFWO5hzwGLed4xlJDPAtJw4AowUt9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "855309246205-0otbledhtsfggmo7gech4pf3advn4is1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cloud.mindbox.pushok.flutter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855309246205:android:20b817a6944d42856d6894",
+        "android_client_info": {
+          "package_name": "com.mindbox.pushok.flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJuFWO5hzwGLed4xlJDPAtJw4AowUt9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "855309246205-0otbledhtsfggmo7gech4pf3advn4is1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cloud.mindbox.pushok.flutter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855309246205:android:ca2521d6e741bde56d6894",
+        "android_client_info": {
+          "package_name": "com.mindbox.pushok.reactNative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJuFWO5hzwGLed4xlJDPAtJw4AowUt9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "855309246205-0otbledhtsfggmo7gech4pf3advn4is1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cloud.mindbox.pushok.flutter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855309246205:android:55c727022550eb156d6894",
+        "android_client_info": {
+          "package_name": "com.testmbsdk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJuFWO5hzwGLed4xlJDPAtJw4AowUt9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855309246205-7d4u83k4mtgc1urfv9q3rr494ugak39i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "855309246205-0otbledhtsfggmo7gech4pf3advn4is1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cloud.mindbox.pushok.flutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

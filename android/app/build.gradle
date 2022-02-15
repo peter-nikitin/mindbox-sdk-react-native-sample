@@ -193,6 +193,13 @@ dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
 
+
+   // Mindbox - проверьте актуальную версию проекта на странице в Maven репозитории
+   implementation 'cloud.mindbox:mobile-sdk:1.2.0'
+   // Firebase
+   implementation platform('com.google.firebase:firebase-bom:28.4.1')
+   implementation 'com.google.firebase:firebase-messaging'
+
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
@@ -225,3 +232,7 @@ task copyDownloadableDepsToLibs(type: Copy) {
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+
+apply plugin: "com.android.application"
+// Подключение плагина Google Services
+apply plugin: 'com.google.gms.google-services'
