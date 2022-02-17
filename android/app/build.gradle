@@ -1,5 +1,8 @@
 apply plugin: "com.android.application"
 
+// Подключение плагина Google Services
+apply plugin: 'com.google.gms.google-services'
+
 import com.android.build.OutputFile
 
 /**
@@ -232,7 +235,3 @@ task copyDownloadableDepsToLibs(type: Copy) {
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
-
-apply plugin: "com.android.application"
-// Подключение плагина Google Services
-apply plugin: 'com.google.gms.google-services'
