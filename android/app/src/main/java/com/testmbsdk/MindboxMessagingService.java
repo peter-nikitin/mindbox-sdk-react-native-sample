@@ -1,9 +1,10 @@
 package com.testmbsdk;
 
-import android.util.Log;
+import android.app.Activity;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
+import com.testmbsdk.MainActivity;
 
 import java.util.HashMap;
 
@@ -12,8 +13,6 @@ import cloud.mindbox.mobile_sdk.Mindbox;
 public class MindboxMessagingService extends FirebaseMessagingService {
     @Override
     public void onNewToken(String token) {
-
-        // Передайте в Mindbox SDK полученный токен
         Mindbox.INSTANCE.updateFmsToken(getApplicationContext(), token);
 
         super.onNewToken(token);
@@ -21,18 +20,16 @@ public class MindboxMessagingService extends FirebaseMessagingService {
 
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
-        Log.i("Message", remoteMessage.toString() );
-        // Обработайте полученные пуш
-//        Mindbox.INSTANCE.handleRemoteMessage(
-//                getApplicationContext(),
-//                remoteMessage,
-//                "notification_channel_id",
-//                "notification_channel_name",
-//                R.mipmap.ic_launcher, // икнока приложения для push уведомлений
-//                MainActivity.class,
-//                "notification_channel_description",
-//                new HashMap<>()
-//        );
+        Mindbox.INSTANCE.handleRemoteMessage(
+                getApplicationContext(),
+                remoteMessage,
+                "mindbox_c",
+                "Mindbox channel",
+                android.R.drawable.ic_dialog_info,
+                MainActivity.class,
+                "Descr",
+                new HashMap<>()
+        );
 
         super.onMessageReceived(remoteMessage);
     }
